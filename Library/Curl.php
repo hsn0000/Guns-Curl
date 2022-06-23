@@ -205,8 +205,6 @@ class Curl
             )
         );
 
-        Repository()->curl_log($log);
-
         return $log;
     }
     /**
